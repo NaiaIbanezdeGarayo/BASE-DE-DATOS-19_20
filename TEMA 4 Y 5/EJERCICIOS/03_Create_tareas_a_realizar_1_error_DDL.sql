@@ -99,8 +99,10 @@ precio_costo NUMBER(4),
 existencias NUMBER(5),
 CONSTRAINT art_pk PRIMARY KEY(articulo, cod_fabricante, peso, categoria),
 CONSTRAINT art_fab_fk FOREIGN KEY(cod_fabricante) REFERENCES fabricantes(cod_fabricante),
-CONSTRAINT art_pre_ck CHECK (precio_venta>0 OR precio_costo>0 OR peso >0),
-CONSTRAINT art_cat_ck CHECK  (LOWER(categoria)  IN('primero','segundo','tercero'))
+CONSTRAINT art_prv_ck CHECK (precio_venta>0),
+CONSTRAINT art_prc_ck CHECK (precio_costo>0), 
+CONSTRAINT art_pes_ck CHECK (peso >0),
+CONSTRAINT art_cat_ck CHECK (categoria  IN('primero','segundo','tercero'))
 );
 
 
@@ -113,11 +115,11 @@ categoria VARCHAR2 (10),
 fecha_pedido DATE DEFAULT SYSDATE,
 unidades_pedidas NUMBER(4),
 CONSTRAINT ped_pk PRIMARY KEY(nif,articulo,cod_fabricante,peso,categoria,fecha_pedido),
-CONSTRAINT ped_fk FOREIGN KEY (cod_fabricante) REFERENCES fabricantes(cod_fabricante),
+CONSTRAINT ped_fab_fk FOREIGN KEY (cod_fabricante) REFERENCES fabricantes(cod_fabricante),
 CONSTRAINT ped_unidades_ck CHECK (unidades_pedidas>0),
-CONSTRAINT ped_cat_ck CHECK (LOWER(categoria)  IN('primero','segundo','tercero')),
-CONSTRAINT art_fk FOREIGN KEY (articulo,cod_fabricante,peso,categoria) REFERENCES articulos(articulo,cod_fabricante, peso,categoria),
-CONSTRAINT tie_fk FOREIGN KEY (nif) REFERENCES tiendas(nif)
+CONSTRAINT ped_cat_ck CHECK (categoria  IN('primero','segundo','tercero')),
+CONSTRAINT ped_art_fk FOREIGN KEY (articulo,cod_fabricante,peso,categoria) REFERENCES articulos(articulo,cod_fabricante, peso,categoria),
+CONSTRAINT ped_tie_fk FOREIGN KEY (nif) REFERENCES tiendas(nif)
 );
 /*
 - LAS PRIMARY KEYS A NIVEL DE FILA NO SE PUEDE PONER NOT NULL
@@ -131,13 +133,12 @@ NINGUN ERROR
 
 
 CREATE TABLE tiendas (
-nif VARCHAR2(10),
+nif VARCHAR2(10) CONSTRAINT tien_nif_pk PRIMARY KEY,
 nombre VARCHAR2(20),
 direccion  VARCHAR2(20),
 poblacion  VARCHAR2(20),
 provincia  VARCHAR2(20),
 codpostal  VARCHAR2(5),
-CONSTRAINT tie_nif_pk PRIMARY KEY (nif),
 CONSTRAINT tie_pro_ck CHECK (provincia = upper(provincia))
 );
 -- LA PRIMARY KEY NO ESTA BIEN DEFINIDA
