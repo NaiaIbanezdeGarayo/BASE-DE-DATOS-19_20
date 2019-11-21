@@ -9,5 +9,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="41A8047C-BAC9-C68A-0A2E-19958E97F159">
 <designStoragePath>/04_Tareas_a_realizar_create_alter_drop_tiendas</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C8405D86-C40A-ADA1-E2FF-5DC7FA3A3BA9">
+<designStoragePath>/04_Tareas_a_realizar_create_alter_drop_tiendas</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>
