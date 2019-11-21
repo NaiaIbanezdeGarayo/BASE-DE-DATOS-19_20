@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="VENTAS" directorySegmentName="seg_0" id="BC4B49E9-2453-FB34-6458-C40E7AB1B5AD">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UNIDADES_VENDIDAS" id="4F17982C-A2DF-8670-4A61-846AF74F0E6F">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_FABRICANTE" id="5F60A806-58FB-3EE6-16FA-DD1183DC7FC4">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ARTICULO" id="9BBE978F-2AA4-BAAB-9394-FC7D78C7A269">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NIF" id="C85448C7-2F34-BE47-2AC0-4754AA2E8E5A">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIA" id="F3CFB7AD-F9D1-E3A4-E453-2684C28ED59B">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_VENTA" id="FA50AE5C-50B9-C119-7130-CD6AC8C16C74">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PESO" id="FBE710A1-6E2B-F08C-EC70-66A375198272">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VEN_NIF_FK" id="4DEAA036-15E8-4F38-DC61-B86C82A2B4BD">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VEN_COD_FK" id="D3E04D49-ABDC-81D3-FB5C-D266A1282E6E">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VEN_FK" id="D4142277-2A79-74E9-7992-D8AFB47A3499">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VEN_PK" id="2BFCC949-6502-6539-138E-CAA917844A01">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="VEN_UNI_CK" id="342E58C2-BB7B-6CDC-639E-C2141BF07FA8">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="VEN_CAT_CK" id="4DD8E0A0-2FF2-995E-CB43-080A70EF13AF">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

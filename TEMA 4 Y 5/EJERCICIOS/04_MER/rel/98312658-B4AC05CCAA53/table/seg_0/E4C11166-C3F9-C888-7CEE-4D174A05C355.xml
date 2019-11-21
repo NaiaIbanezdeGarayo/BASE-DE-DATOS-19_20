@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4C11166-C3F9-C888-7CEE-4D174A05C355" name="FABRICANTES">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>3E89E79C-FFC2-7165-1F2D-D41512A9EF54</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_FABRICANTE" id="9AD0E3EA-A8DA-C13B-76F3-13DA7E1DB2BC">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>57BF5EB9-4F20-4D44-AD7B-0F3ECD5840BE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>28F948AD-A74B-8411-5C51-CD753486859A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="94FC6168-A53C-02B9-1A53-9B7470BA117C">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>724CF6BC-2B35-BA52-670E-157F7FDBEB7A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4189D54E-E74E-FF58-E0F5-6131E261EB9A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="D775A5BB-FB17-8391-2C7D-1BD2BB45362A">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>320FF6F6-C6F4-003F-F848-980336EAC91A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4189D54E-E74E-FF58-E0F5-6131E261EB9A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4C88A9F-1F14-EB80-E41E-733F03B25D50" name="FAB_COD_PK">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>73EB3D0C-51D0-D866-6749-53C26304BDD9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AD0E3EA-A8DA-C13B-76F3-13DA7E1DB2BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="FAB_NOM_CK" directorySegmentName="seg_0" id="ED3E57FF-A736-F8F2-878B-C39E01C0D675">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>6B64B0AB-AE67-2443-33DD-854E2AA7052B</importedID>
+<rule><![CDATA[NOMBRE = UPPER(NOMBRE)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="FAB_PAIS_CK" directorySegmentName="seg_0" id="1A19FD01-3060-2094-8F26-147F7D5A8FDE">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>6BFF96DA-12A3-1A76-85D3-9001C666D1FE</importedID>
+<rule><![CDATA[PAIS = UPPER(PAIS)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

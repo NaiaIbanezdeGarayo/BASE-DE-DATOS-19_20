@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5CCDDB6-C646-409E-62E9-CE6CEEDA3992" name="TIENDAS">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>CBFE1D44-E678-C0A8-0A28-1CCAADFEE7BB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIF" id="9AD801ED-705C-465C-DC2F-4B2EF611970A">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>CBBC5431-3C3C-7DDB-EA67-58A09797A954</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30021D7D-E6A0-0738-58D8-6E5D554DF2F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="67412C54-E6A4-9A56-EADA-44DF8160505A">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>456B6E78-00D2-77DA-BF3C-D2A6D1411B52</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83D95588-4064-2BB2-AB93-1CC976EE353F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="3E4B4B71-AA7D-266F-4163-A3D655715F51">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>8326B93A-6CD2-F858-3E61-0B7267DE507E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83D95588-4064-2BB2-AB93-1CC976EE353F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POBLACION" id="D9202116-C6ED-AFFA-B774-7AA606BFA00B">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>BDF43DAF-2517-F1B6-8173-6F006FEA402B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83D95588-4064-2BB2-AB93-1CC976EE353F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCIA" id="18F18F40-F9E1-7401-56C9-1346C791CA49">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>F6DBB84C-EF7F-15DD-D28C-53167CCDB0AA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83D95588-4064-2BB2-AB93-1CC976EE353F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODPOSTAL" id="FBC5CF01-B595-9E6F-8B3D-2D5E3964B11E">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>C7CA3464-373C-70DD-0139-E057CABA671F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>548489FF-69BA-683B-C799-7255C9CC3A40</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E7F1F01-5E3B-DB54-8A8F-88D155EE143E" name="TIE_NIF_PK">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>F2AAA9B0-DABB-D023-4EBF-D520C4848A5A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AD801ED-705C-465C-DC2F-4B2EF611970A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="TIE_PRO_CK" directorySegmentName="seg_0" id="6F917EE7-E391-2469-A92C-B2B2F47A1EF4">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>0A5F2402-0516-193C-9B1B-3EA44E10D967</importedID>
+<rule><![CDATA[PROVINCIA = UPPER(PROVINCIA)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

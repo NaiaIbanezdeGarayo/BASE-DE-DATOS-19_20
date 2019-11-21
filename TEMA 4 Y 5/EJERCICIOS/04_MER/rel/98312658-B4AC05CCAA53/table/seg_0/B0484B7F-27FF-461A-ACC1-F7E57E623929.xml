@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0484B7F-27FF-461A-ACC1-F7E57E623929" name="ARTICULOS">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>4FEB41FB-2038-A73A-B06D-E8597174BD6B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARTICULO" id="8366638A-D555-16AB-E44D-76E57E1C5019">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>3FD8628D-53EA-6094-A31B-4EE7DA3944F8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83D95588-4064-2BB2-AB93-1CC976EE353F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_FABRICANTE" id="69D58D56-0EE2-9FC3-B160-DDC68666FBB1">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>843EF551-9C9A-4186-5253-3E140331EB9C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>28F948AD-A74B-8411-5C51-CD753486859A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F731C770-D7BC-84AC-DA87-08D793EAB823" referredColumn="9AD0E3EA-A8DA-C13B-76F3-13DA7E1DB2BC"/>
+</associations>
+</Column>
+<Column name="PESO" id="BC439BB9-97BF-D766-8BF2-1AD66430375A">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>5EEF3D9B-84FC-B55D-64B7-E08F0648B8B4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9C4C807-1F0C-9ABC-9977-D11572C0688F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="4E18808D-967E-6F10-05F5-221F993A0BA5">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>17DEFD83-F734-3F2B-C790-2B159B8CBB85</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30021D7D-E6A0-0738-58D8-6E5D554DF2F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_VENTA" id="9198B665-02D0-C5C9-1AF7-26821FAC780C">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>3E8B0D47-B21F-59B6-BEB0-219B927D1848</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>480CA8A6-865D-46B7-4F15-FFCDCEBE50D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_COSTO" id="ACB95FB1-F9D2-7FBD-32D2-6A65B74BC5BC">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>F3089B1E-2390-60E0-4AA2-3FC360143121</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>480CA8A6-865D-46B7-4F15-FFCDCEBE50D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXISTENCIAS" id="00C6CB09-8A53-4E8B-B8C9-FDFAFAE0B69C">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>B5B8BCD9-4A6D-61F8-86A7-F64555FBCA5D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A8CAF103-E062-9F6A-A335-F0B4BE4F6391</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="770E9881-E402-9FE5-0B08-6212D2528AD3" name="ART_PK">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>12DA0716-E5CA-7A46-DAD5-48F15F3C17F1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8366638A-D555-16AB-E44D-76E57E1C5019"/>
+<colUsage columnID="69D58D56-0EE2-9FC3-B160-DDC68666FBB1"/>
+<colUsage columnID="BC439BB9-97BF-D766-8BF2-1AD66430375A"/>
+<colUsage columnID="4E18808D-967E-6F10-05F5-221F993A0BA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D19C71F1-379E-213F-6C35-741956857CCB" name="ART_COD_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D58D56-0EE2-9FC3-B160-DDC68666FBB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ART_PREV_CK" directorySegmentName="seg_0" id="C788D9CD-ECA0-98DB-112A-73D700B9D30F">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>113D1AEA-909C-36EA-B540-E3448AC2DE67</importedID>
+<rule><![CDATA[PRECIO_VENTA > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ART_PREC_CK" directorySegmentName="seg_0" id="D1D4373D-F48D-FD27-67F8-A60B511ED1C7">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>E3046D5E-A081-6654-C9CA-92D529BBC7C3</importedID>
+<rule><![CDATA[PRECIO_COSTO > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ART_PES_CK" directorySegmentName="seg_0" id="EA6BF2CF-1DBE-E67E-BF95-1C6BF98CBC65">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>73082739-CD58-999C-9E7E-731EC52803BF</importedID>
+<rule><![CDATA[PESO > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ART_CAT_CK" directorySegmentName="seg_0" id="EDFE281C-08B3-AC4C-FA52-2DB2E0066596">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>B93BAE4B-B06C-74A9-AA74-75D36B2FD950</importedID>
+<rule><![CDATA[INITCAP(CATEGORIA) IN ('Primera','Segunda','Tercera')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

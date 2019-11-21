@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FE63CF3-B824-EFE1-1099-84DA3B0B755A" name="PEDIDOS">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>0915B13E-E146-8A4E-64EA-681492F9459F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIF" id="DC56868E-1447-CFFE-459A-6E4BCB0876BC">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>3E216BCF-BA38-73B5-821F-822BF152EC75</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30021D7D-E6A0-0738-58D8-6E5D554DF2F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CD13E36-4D46-B13F-586D-84FDF4584D1A" referredColumn="9AD801ED-705C-465C-DC2F-4B2EF611970A"/>
+</associations>
+</Column>
+<Column name="ARTICULO" id="E2B5C088-81DE-4C13-FFAF-7B4D856FA0A3">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>22FAE4B1-78A5-152C-0EDF-F60889DCB691</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>83D95588-4064-2BB2-AB93-1CC976EE353F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F908AF0-56E0-6DCD-3DA3-324262F50EFC" referredColumn="8366638A-D555-16AB-E44D-76E57E1C5019"/>
+</associations>
+</Column>
+<Column name="COD_FABRICANTE" id="215AB9C8-254D-7654-C0E2-D54ECE454DDB">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>13FD95FC-C8D8-5DE6-6523-944DD32FD744</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>28F948AD-A74B-8411-5C51-CD753486859A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="689E6875-07B5-B70C-C08B-5B1626E12812" referredColumn="9AD0E3EA-A8DA-C13B-76F3-13DA7E1DB2BC"/>
+<colAssociation fkAssociation="8F908AF0-56E0-6DCD-3DA3-324262F50EFC" referredColumn="69D58D56-0EE2-9FC3-B160-DDC68666FBB1"/>
+</associations>
+</Column>
+<Column name="PESO" id="E89CC56E-14D3-791D-B204-89E07799FC68">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>F5FAE74A-DF7B-7155-04FE-E14F490FE332</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9C4C807-1F0C-9ABC-9977-D11572C0688F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F908AF0-56E0-6DCD-3DA3-324262F50EFC" referredColumn="BC439BB9-97BF-D766-8BF2-1AD66430375A"/>
+</associations>
+</Column>
+<Column name="CATEGORIA" id="018A62AA-9108-D520-F8AE-6049729FCF76">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>1553FA5F-65C1-8B9C-436A-8DE00F5ACD18</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30021D7D-E6A0-0738-58D8-6E5D554DF2F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F908AF0-56E0-6DCD-3DA3-324262F50EFC" referredColumn="4E18808D-967E-6F10-05F5-221F993A0BA5"/>
+</associations>
+</Column>
+<Column name="FECHA_PEDIDO" id="7D5C37DA-15E4-5160-8F2F-8027025D8BF2">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>76E57B24-2246-3D9E-F37B-7DE41230D444</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>CD92C596-32E4-CA19-48AA-3079BADCC4C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDADES_PEDIDAS" id="0023A171-E81F-6E63-AE0F-1AA85731DC78">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>4AF7D204-8D15-36D5-4020-EE905232EB61</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>480CA8A6-865D-46B7-4F15-FFCDCEBE50D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6183DF97-43FC-9040-31C3-E7BF6E7184CE" name="PED_PK">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>D8E31AB9-821E-B916-461C-D46076467501</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC56868E-1447-CFFE-459A-6E4BCB0876BC"/>
+<colUsage columnID="E2B5C088-81DE-4C13-FFAF-7B4D856FA0A3"/>
+<colUsage columnID="215AB9C8-254D-7654-C0E2-D54ECE454DDB"/>
+<colUsage columnID="E89CC56E-14D3-791D-B204-89E07799FC68"/>
+<colUsage columnID="018A62AA-9108-D520-F8AE-6049729FCF76"/>
+<colUsage columnID="7D5C37DA-15E4-5160-8F2F-8027025D8BF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A1F7D62-F2B4-3D2F-A86C-81E025661E65" name="PED_COD_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="215AB9C8-254D-7654-C0E2-D54ECE454DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CA1CF3E-A18B-2378-F2B1-25FDF94B1B37" name="PED_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B5C088-81DE-4C13-FFAF-7B4D856FA0A3"/>
+<colUsage columnID="215AB9C8-254D-7654-C0E2-D54ECE454DDB"/>
+<colUsage columnID="E89CC56E-14D3-791D-B204-89E07799FC68"/>
+<colUsage columnID="018A62AA-9108-D520-F8AE-6049729FCF76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EC7B86E-0883-3109-C1D4-A7986EDFBA3E" name="PED_NIF_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC56868E-1447-CFFE-459A-6E4BCB0876BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="PED_UNI_CK" directorySegmentName="seg_0" id="1833D7DD-3509-72AD-A6EE-F31996E4F480">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>ACC7B84C-3DC7-E860-94F8-3D22422E33DE</importedID>
+<rule><![CDATA[UNIDADES_PEDIDAS > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="PED_CAT_CK" directorySegmentName="seg_0" id="056ECDFE-6C8C-BD0E-C6EF-35D819DFB9E3">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>E4597109-515D-D12E-91F6-18ED3E711DBB</importedID>
+<rule><![CDATA[INITCAP(CATEGORIA) IN ('Primera','Segunda','Tercera')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

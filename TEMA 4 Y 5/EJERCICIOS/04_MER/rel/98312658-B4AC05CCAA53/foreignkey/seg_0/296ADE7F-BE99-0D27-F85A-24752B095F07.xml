@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="296ADE7F-BE99-0D27-F85A-24752B095F07" containerWithKeyObject="BC4B49E9-2453-FB34-6458-C40E7AB1B5AD" localFKIndex="4DEAA036-15E8-4F38-DC61-B86C82A2B4BD" name="VEN_NIF_FK">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>E77761B6-F88E-9396-C4F6-047CD2170E3C</importedID>
+<referredTableLongName>TIENDAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5CCDDB6-C646-409E-62E9-CE6CEEDA3992</referredTableID>
+<keyObject>2E7F1F01-5E3B-DB54-8A8F-88D155EE143E</keyObject>
+<referredKeyID>2E7F1F01-5E3B-DB54-8A8F-88D155EE143E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIF</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

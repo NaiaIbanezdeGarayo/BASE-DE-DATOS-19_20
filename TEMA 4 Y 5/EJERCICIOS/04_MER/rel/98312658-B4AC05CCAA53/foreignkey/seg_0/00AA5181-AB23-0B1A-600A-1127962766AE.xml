@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00AA5181-AB23-0B1A-600A-1127962766AE" containerWithKeyObject="BC4B49E9-2453-FB34-6458-C40E7AB1B5AD" localFKIndex="D3E04D49-ABDC-81D3-FB5C-D266A1282E6E" name="VEN_COD_FK">
+<sourceDDLFile>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:48:35 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>8C8D964A-2C0A-1650-000C-AA0FBFEBBC31</importedID>
+<referredTableLongName>FABRICANTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E4C11166-C3F9-C888-7CEE-4D174A05C355</referredTableID>
+<keyObject>B4C88A9F-1F14-EB80-E41E-733F03B25D50</keyObject>
+<referredKeyID>B4C88A9F-1F14-EB80-E41E-733F03B25D50</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_FABRICANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

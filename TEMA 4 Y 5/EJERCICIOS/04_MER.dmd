@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="04_MER" id="680312DC-6C22-3AB0-3194-9F21065CA417" version="3.5">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-21 11:47:01 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>680312DC-6C22-3AB0-3194-9F21065CA417</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="41A8047C-BAC9-C68A-0A2E-19958E97F159">
+<designStoragePath>/04_Tareas_a_realizar_create_alter_drop_tiendas</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
