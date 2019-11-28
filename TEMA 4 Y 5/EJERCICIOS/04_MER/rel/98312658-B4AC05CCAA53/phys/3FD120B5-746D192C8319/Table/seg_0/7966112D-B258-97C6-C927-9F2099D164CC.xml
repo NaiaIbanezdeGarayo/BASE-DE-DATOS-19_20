@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPART" directorySegmentName="seg_0" id="7966112D-B258-97C6-C927-9F2099D164CC">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOC" id="033C0C07-43C6-A048-569F-70F97E18C6D4">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNOMBRE" id="6EDFBA8B-A07D-93A4-0A3E-76F29B0F7573">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="7EF1BC5F-C9A0-ED12-21D8-444048BADEB5">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEP_PK" id="375C481B-4821-ED36-571B-D6FE43CA0452">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

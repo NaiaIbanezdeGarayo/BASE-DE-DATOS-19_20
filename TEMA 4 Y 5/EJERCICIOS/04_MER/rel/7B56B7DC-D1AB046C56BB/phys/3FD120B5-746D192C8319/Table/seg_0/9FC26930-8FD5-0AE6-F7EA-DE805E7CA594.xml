@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLE" directorySegmentName="seg_0" id="9FC26930-8FD5-0AE6-F7EA-DE805E7CA594">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OFICIO" id="19D77252-EF3E-FD6B-1152-5D74DEA5B1CB">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARIO" id="1E90C120-0665-C7D0-093E-4EF8663AAB92">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="4CBA5A12-7A34-0EDE-B537-0BCE6E5A4874">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_JEFE" id="69090643-7583-83EF-35F8-8B24225305C8">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_NO" id="6916FADF-7166-2E8D-A990-45E373D4D193">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMISION_PCT" id="7734DD33-E6D3-EBF2-6AD6-A10C03C64F67">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="BDF554B9-3605-F9A1-71AA-C0A11B022F76">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_ALTA" id="DF819C25-E76E-800A-F507-BDDE809B126E">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLE_DIR_FK" id="2DF34AB7-C720-AEA9-80DD-C0DC78F1625B">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLE_DEP_FK" id="D15B4444-2701-A0F2-A999-2E669747F5A3">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLE_PK" id="8508449F-178C-BA40-D372-3E10DD213AD0">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:22 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

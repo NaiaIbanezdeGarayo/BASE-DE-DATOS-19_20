@@ -12,5 +12,11 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C8405D86-C40A-ADA1-E2FF-5DC7FA3A3BA9">
 <designStoragePath>/04_Tareas_a_realizar_create_alter_drop_tiendas</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6F7A5D60-4641-BD8E-33A6-DE6EFE73F113">
+<designStoragePath>/tabla_emple_depart</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4900D92B-F3FA-51FA-AF75-CD765A434D9C">
+<designStoragePath>/tabla_emple_depart</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

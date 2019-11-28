@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="tabla_emple_depart" id="7B56B7DC-E15F-69EA-F9C1-D1AB046C56BB" mainViewID="1779B98E-DA9A-B3EF-2810-993619BCCD63">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:32:19 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>tabla_emple_depart.sql</fileName>
+<pathName>/Users/1gdaw06/Desktop/DAW/BASE DE DATOS/BASE-DE-DATOS-19_20/TEMA 4 Y 5/EJERCICIOS</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

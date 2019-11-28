@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B7CF54-351B-FD26-3D20-9A24D1596F19" name="EMPLE">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>5ECC50A8-1C3A-3D38-6587-DEB3CCB9CDAA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_NO" id="637135AA-9FA3-4664-7FC7-EA4D9A1BE8AE">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>D9BEBC98-F738-6718-1951-5DF09B98420C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>480CA8A6-865D-46B7-4F15-FFCDCEBE50D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="BD5C9C56-37D9-FFB1-819A-A41213839902">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>F5D252D4-0DFA-B72D-D627-85DF7AA25462</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30021D7D-E6A0-0738-58D8-6E5D554DF2F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFICIO" id="647089FF-889F-19C1-2342-BF083C5E36AB">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>B05A10FC-2CF1-4BB0-5CC2-56C49F6241C2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4189D54E-E74E-FF58-E0F5-6131E261EB9A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_JEFE" id="AEDCA49F-4324-0C0E-C3FB-698C42DB255E">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>7DBE5E9C-F398-E6CA-BF48-EE437E2B8F27</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>480CA8A6-865D-46B7-4F15-FFCDCEBE50D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFAC31F2-04BB-61C0-7C35-7CDFEF4E92AE" referredColumn="637135AA-9FA3-4664-7FC7-EA4D9A1BE8AE"/>
+</associations>
+</Column>
+<Column name="FECHA_ALTA" id="D48D89DD-64CD-F338-E703-B6563E200DDC">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>901621BD-62A6-3D5B-BC55-25FB683B0C99</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>CD92C596-32E4-CA19-48AA-3079BADCC4C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="91EB2550-92AE-FF73-EC72-5C034FE58055">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>DF433408-F9CA-5C04-7748-A8170A8B6B98</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3B9EE617-B703-2F51-FFD2-9857D65B1DCF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMISION_PCT" id="3A356AAF-1398-7EDA-9EFC-EF7D0381DB16">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>E3DAEC78-22C6-AD6C-3F67-9AA17A26D470</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9C4C807-1F0C-9ABC-9977-D11572C0688F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_NO" id="AC236CE4-DA49-88F6-A116-EB2942A97997">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>30440995-4C9E-53FD-AF92-BB4DDF6371B8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3635F470-B4D3-F3DE-C773-8B8FF8D745D7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5276493-6B57-E5C8-01F1-FFAAFDF24472" referredColumn="7EF1BC5F-C9A0-ED12-21D8-444048BADEB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63CD6E97-105C-6ED0-156E-1ED17EC4ACD4" name="EMPLE_PK">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>348C6B95-63E9-E75E-60FB-E19CCFBECEE8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="637135AA-9FA3-4664-7FC7-EA4D9A1BE8AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A456B15-0306-4EFB-DA75-B5A775AE29A4" name="EMPLE_DEP_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC236CE4-DA49-88F6-A116-EB2942A97997"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A33B22B4-47EB-7F3D-A15B-10D647D992CC" name="EMPLE_DIR_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEDCA49F-4324-0C0E-C3FB-698C42DB255E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

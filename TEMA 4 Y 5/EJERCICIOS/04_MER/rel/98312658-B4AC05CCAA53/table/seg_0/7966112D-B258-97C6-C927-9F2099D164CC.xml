@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7966112D-B258-97C6-C927-9F2099D164CC" name="DEPART">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>3CE0EE84-D5ED-8895-547E-B25AE1A637A4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPT_NO" id="7EF1BC5F-C9A0-ED12-21D8-444048BADEB5">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>84CC60E9-678C-3F29-ADB0-B98A361229E6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3635F470-B4D3-F3DE-C773-8B8FF8D745D7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNOMBRE" id="6EDFBA8B-A07D-93A4-0A3E-76F29B0F7573">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>D1CB4E00-CD54-D147-38BF-8575C5BDAD2E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6E73BC75-97C0-309D-2528-B666D7327F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="033C0C07-43C6-A048-569F-70F97E18C6D4">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>95CAE785-289E-44F3-0721-341FF87672B5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6E73BC75-97C0-309D-2528-B666D7327F73</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="375C481B-4821-ED36-571B-D6FE43CA0452" name="DEP_PK">
+<sourceDDLFile>tabla_emple_depart.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-11-28 11:31:30 UTC</createdTime>
+<ownerDesignName>04_MER</ownerDesignName>
+<importedID>105684AD-0F3A-F323-8BE4-28F4FBE0E2ED</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EF1BC5F-C9A0-ED12-21D8-444048BADEB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

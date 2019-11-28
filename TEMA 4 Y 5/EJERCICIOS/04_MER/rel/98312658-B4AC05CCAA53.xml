@@ -3,11 +3,16 @@
 <createdBy>1gdaw06</createdBy>
 <createdTime>2019-11-21 11:47:03 UTC</createdTime>
 <ownerDesignName>04_MER</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
+<shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
 <importDDLFileStamps>
 <importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
 <fileName>04_Tareas_a_realizar_create_alter_drop_tiendas.sql</fileName>
+<pathName>/Users/1gdaw06/Desktop/DAW/BASE DE DATOS/BASE-DE-DATOS-19_20/TEMA 4 Y 5/EJERCICIOS</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>tabla_emple_depart.sql</fileName>
 <pathName>/Users/1gdaw06/Desktop/DAW/BASE DE DATOS/BASE-DE-DATOS-19_20/TEMA 4 Y 5/EJERCICIOS</pathName>
 <dbType>11</dbType>
 </importDDLFileStamp>
