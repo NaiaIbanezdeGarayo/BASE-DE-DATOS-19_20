@@ -50,11 +50,21 @@ END;
  Descripcion:
  calcular un numero aleatorio y sacarlo por pantalla
 */
+--MANERA 1
 DECLARE
     N1 NUMBER(1);
     N2 NUMBER(6);
 BEGIN
   select rownum, trunc(dbms_random.value(1,99999)) INTO N1,N2 from dual;
+  dbms_output.put_line(to_char(trunc(dbms_random.value(1,99999))) );
+END;
+
+--MANERA 2
+DECLARE
+    --N1 NUMBER(1);
+    --N2 NUMBER(6);
+BEGIN
+  --select rownum, trunc(dbms_random.value(1,99999)) INTO N1,N2 from dual;
   dbms_output.put_line(to_char(trunc(dbms_random.value(1,99999))) );
 END;
 
