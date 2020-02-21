@@ -52,12 +52,12 @@ Begin
       Loop
           LN$Num := LN$Num + 1 ;
           CASE 
-            WHEN LN$Num=1 THEN xxxx ( '1' ) ;
-            WHEN LN$Num=2 THEN xxxx ( '2' ) ;
-            WHEN LN$Num=3 THEN xxxx ( '3' ) ;
+            WHEN LN$Num=1 THEN DBMS_OUTPUT.PUT_LINE ( '1' ) ;
+            WHEN LN$Num=2 THEN DBMS_OUTPUT.PUT_LINE ( '2' ) ;
+            WHEN LN$Num=3 THEN DBMS_OUTPUT.PUT_LINE ( '3' ) ;
            ELSE      
               EXIT ;
-         xxxxx;
+         END CASE;
        End loop ;
 End ;
 
