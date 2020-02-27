@@ -1,3 +1,4 @@
+SET SERVEROUTPUT ON
 -- EJERCICIO 1
 /* 
  Autor: NAIA
@@ -25,7 +26,9 @@ END;
 /* 
  Autor: NAIA
  Fecha: 20/02/2020
- Descripcion: xxxxx
+ Descripcion: si el numero es 1,2,3 saldra por pantalla diciendo el numero que es , y sino es el caso decir que no es 
+ ninguno de los casos.
+ poner coma final del else,a�adir exit y una condciion,se necesita alguna concicion en alguna parte
 */
 --CASE
 --set SERVEROUTPUT ON; SE EJECUTA UNA VEZ POR SESIÓN
@@ -41,6 +44,7 @@ Declare
            ELSE   
             DBMS_OUTPUT.PUT_LINE('NO ES NI 1 NI 2 NI 3');
              -- EXIT ; EVITAR PONER EL EXIT
+             -- exit when  LN$Num>5;
          END CASE ;
        End loop ;
    End ;
@@ -63,9 +67,10 @@ End ;
 
 -- EJERCICIO 3
 /* 
- Autor: xxxx
- Fecha: xxxxx
- Descripcion: xxxxx
+ Autor: NAIA
+ Fecha: 20/02/2020
+ Descripcion: sacar por consola cuando un numero es menor que 5 ,esta entre 1 y 3 y cuando se mayor que 5,falta 
+ una condicion para salir del bucle,en las sentencia between a�adir una concicion.
 */
 -- CASE MULTIPLES
 Declare
@@ -74,7 +79,7 @@ Begin
       Loop
           LN$Num := LN$Num + 1 ;
           CASE
-            WHEN LN$Num between  xxxx 
+            WHEN LN$Num between  1 and 3 
                  THEN dbms_output.put_line( To_char( LN$Num ) || ' -> 1-3' ) ;
             WHEN LN$Num < 5 
                  THEN dbms_output.put_line( To_char( LN$Num ) || ' < 5' ) ;
@@ -82,6 +87,6 @@ Begin
                  dbms_output.put_line( To_char( LN$Num ) || ' >= 5' ) ;
           END CASE ;
          -- Condición de salida LN$Num = 5
-         xxxx ;
+         EXIT WHEN LN$Num = 5 ; 
        End loop ;
 End ;
